@@ -1,0 +1,103 @@
+/*
+Theme Name: My Shop
+Version: 1.0
+*/
+
+h3.shop-widget-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2a2a2a;
+    font-weight: 500;
+    line-height: 40px;
+    position: relative;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    /* width: 48%; */
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.woocommerce .form-row{
+	display: block;
+}
+
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+aside#woocommerce_product_categories-2 {
+    margin-bottom: 30px;
+}
+
+ul.product-categories {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0px solid transparent;
+}
+
+a {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #797979;
+    position: relative;
+}
+
+li.cat-item.cat-item-35.cat-parent {
+    display: block;
+    justify-content: center;
+}
+
+span.ui-slider-handle.ui-state-default.ui-corner-all {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ff3368;
+    background-color: #ff3368;
+    background: linear-gradient(to bottom, #ff3368 0%, #ff3368 20%, #ff3368 100%);
+    top: 28px;
+    box-shadow: none;
+}
+
+.ui-slider-range.ui-widget-header.ui-corner-all {
+    height: 6px;
+    top: 33px;
+    border-top: 1px solid #ff3368;
+    border-bottom: 1px solid #ff3368;
+    background: #ff3368;
+    background: linear-gradient(to top, #ff3368 0%, #ff3368 100%);
+}
+
+.our_offer {
+    background-color: #ecfdff;
+    margin-bottom: 66px;
+}
+
+section.subscribe_area.section_padding {
+    margin-top: 56px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2a2a2a;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.woocommerce-info {
+    margin-top: 45px;
+}
+
+input#coupon_code {
+    width: 135px;
+}
+
+.single-product {
+    text-align: left;
+    margin-bottom: 50px;
+}
